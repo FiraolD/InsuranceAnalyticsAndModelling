@@ -195,3 +195,5 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+/.vs/InsuranceAnalyticsAndModelling/FileContentIndex/e9fd4ce9-1cdc-42e4-847e-0c5367c63062.vsidx
+/.vs/InsuranceAnalyticsAndModelling/FileContentIndex/28c476ad-ac57-4fa4-86e5-d3d93bc03278.vsidx
