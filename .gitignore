@@ -6,7 +6,37 @@ __pycache__/
 # C extensions
 *.so
 .vs
-#data
+# Ignore large data files
+/data/
+*.txt
+*.csv
+*.parquet
+*.xlsx
+*.dvc/cache/
+*.dvc/tmp/
+
+# Python cache & virtual environments
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.virtualenv/
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+.atom/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sqlite
+*.sql
 
 
 # Distribution / packaging
