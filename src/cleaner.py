@@ -71,8 +71,7 @@ def save_cleaned_data(df, output_path):
 def main():
     # Define paths
     #project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-    data_path = os.path.join('C:/Users/Firaol Dabi/OneDrive/Desktop/Insurance-Risk-Analytics/Insurance-Risk-Analytics', 'data', 'MachineLearningRating_v3.txt')
-    output_path = os.path.join('C:/Users/Firaol Dabi/OneDrive/Desktop/Insurance-Risk-Analytics/Insurance-Risk-Analytics', 'data', 'cleaned_insurance_data.csv')
+    data_path = os.path.join('D:/PYTHON PROJECTS/KIAM PROJECTS/InsuranceAnalyticsAndModelling', 'Data', 'MachineLearningRating_v3.txt')
 
     # Ensure processed directory exists
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
