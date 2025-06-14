@@ -38,7 +38,7 @@ def top_categorical_values(df):
 if __name__ == '__main__':
     # Define paths
     #project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-    data_path = os.path.join('C:/Users/firao/Desktop/Insurance-Risk-Analytics', 'data', 'MachineLearningRating_v3.txt')
+    data_path = os.path.join('D:/PYTHON PROJECTS/KIAM PROJECTS/InsuranceAnalyticsAndModelling', 'data', 'MachineLearningRating_v3.txt')
     #df = pd.read_csv("C:/Users/firao/Desktop/PYTHON PROJECTS/KIAM PROJECTS/Insurance-Risk-Analytics/Data/sentiment_reviews2.csv", )  # or whatever the filename is
     # Load data
     df = load_data(data_path)
