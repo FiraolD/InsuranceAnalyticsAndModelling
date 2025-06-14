@@ -7,8 +7,8 @@ __pycache__/
 *.so
 .vs
 # Ignore large data files
-/data/
-*.txt
+#/data/
+#*.txt
 *.csv
 *.parquet
 *.xlsx
