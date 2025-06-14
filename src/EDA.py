@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("C:/Users/firao/Desktop/PYTHON PROJECTS/KIAM PROJECTS/Insurance-Risk-Analytics/Data/cleaned_insurance_data.csv", parse_dates=["TransactionMonth"])  # Update filename
+df = pd.read_csv("C:/Users/Firaol Dabi/OneDrive/Desktop/Insurance-Risk-Analytics/Insurance-Risk-Analytics/Data/cleaned_insurance_data.csv", parse_dates=["TransactionMonth"])  # Update filename
 df.rename(columns={"TransactionMonth": "ClaimDate"}, inplace=True)
 
 # Optional: Drop rows with critical missing values for cleaner visuals
